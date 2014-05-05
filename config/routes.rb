@@ -1,4 +1,8 @@
 Epyc::Application.routes.draw do
+  get "epyc/home"
+  get "epyc/help"
+  get "epyc/about"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

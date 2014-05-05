@@ -13,14 +13,14 @@ group :production do
 end
 
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails', '2.4.0'
 	gem 'sqlite3'
 end
 
 
 group :test do 
 	gem 'capybara', '1.1.2'
-	gem 'rspec', '2.0.1'
+	gem 'rspec', '2.4.0'
 	gem 'webrat', '0.7.1'
 end
 
